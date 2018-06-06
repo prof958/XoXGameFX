@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xoxtest1.FXMLDocumentController">
+    <children>
+      <Label layoutX="270.0" layoutY="16.0" prefHeight="21.0" prefWidth="48.0" text="TURN :" />
+      <Label fx:id="turnXOX" layoutX="318.0" layoutY="16.0" prefHeight="21.0" prefWidth="12.0" text="X" />
+        
+      <Button fx:id="upperLeft" layoutY="100.0" onAction="#buttonUpperLeft" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="up" layoutX="200.0" layoutY="100.0" onAction="#buttonUp" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="upperRight" layoutX="400.0" layoutY="100.0" onAction="#buttonUpperRight" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="left" layoutY="300.0" onAction="#buttonLeft" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="middle" layoutX="201.0" layoutY="300.0" onAction="#buttonMiddle" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="right" layoutX="400.0" layoutY="300.0" onAction="#buttonRight" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="bottomLeft" layoutY="500.0" onAction="#buttonBottomLeft" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="down" layoutX="200.0" layoutY="500.0" onAction="#buttonDown" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Button fx:id="bottomRight" layoutX="400.0" layoutY="500.0" onAction="#buttonBottomRight" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="96.0" />
+         </font></Button>
+      <Label layoutX="61.0" layoutY="26.0" prefHeight="47.0" prefWidth="38.0" text="X :" textFill="RED">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="26.0" prefHeight="47.0" prefWidth="38.0" text="0" fx:id="xWins">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="462.0" layoutY="26.0" prefHeight="47.0" prefWidth="38.0" text="O:" textFill="#0050ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="oWins" layoutX="500.0" layoutY="26.0" prefHeight="47.0" prefWidth="38.0" text="0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+    
+    
+    </children>
+</AnchorPane>
